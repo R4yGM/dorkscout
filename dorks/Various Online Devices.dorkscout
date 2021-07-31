@@ -1,0 +1,659 @@
+intext:"Live View" inurl:ui3.htmintext:"Egardia & WoonVeilig" -site:"linkedin.*" -"data-lead.com" -"getemail.io" -"holaconnect.com" -"kzhead.info"
+intitle:"Cambium" inurl:top.cgi
+inurl:top.cgi intitle:"Motorola ptp"
+intitle:"vood Residential gateway" inurl:vood/cgi-bin/
+intitle:"CPU-Modul TROVIS 6610"
+inurl:"serverpush.htm" "IP Camera" intext:"Foscam"
+intitle:"myhome" intext:"Tilgin. All rights reserved. Copyright and Trademark."
+intitle:LANCOM "A webbrowser with active JavaScript support is required."
+intitle:("Canon" + "series Network Configuration" "Basic Information") + "JavaScript is not enabled"
+intitle:"Solar-Log™" intext:"Build Revision"
+intitle:"3CX Phone System Management Console"
+inurl:"/web/guest/en/websys/webArch/mainFrame.cgi"
+"Username" "Password" "ZTE Corporation. All rights reserved."
+intitle:"WF Series" inurl:PRTINFO.html
+"NETGEAR, Inc. All rights reserved" intitle:"Netgear Prosafe Plus Switch"
+intitle:"Remote UI" intext:"Printer status"
+intitle:"::: ACEmanager :::"
+intitle:"Camera Status" inurl:/control/
+intitle:"supra IPC"
+intitle:"Dell OpenManage Switch Administrator" intext:"Type in Username and Password, then click OK"
+intitle:"Alarm Panel" intext:"Climax Tech. Co., Ltd."
+intitle:"webcamxp" "Flash JPEG Stream"
+inurl:/portal/indicate intitle:Remote UI
+inurl:mobile.html intitle:webcamXP
+intext:"LANCOM 1781VA (over ISDN)"
+intitle:"Web Client for DVR"
+intitle:"Intelbras" site:*/index.html
+intitle:"Yealink" inurl:"servlet?m="
+intitle:HP LASERJET PRO MFP inurl:/SSI/index.htm
+intitle:"Device(" intext:"ActiveX Mode (For IE Browser)"
+"Name" "Password" intitle:"LANCOM 1790VA"
+intitle:series "Note: It is recommended to communicate via HTTPS for entering an administrator password."
+inurl:/PRESENTATION/PSWD
+inurl:/PRESENTATION/BONJOUR intitle:Series
+inurl:/PRESENTATION/EPSONCONNECT
+intext:@print.epsonconnect.com intitle:series
+Google Dork: intitle:"ZM - Console"
+Google Dork: intitle:"ZM - System Log"
+inurl:/login/?referer=/admin/ intext:cradlepoint
+allintext:"Copyright CANON INC" "iR-ADV"
+inurl:"/cgi-bin/luci" intext:"Authorization Required" intitle:"LuCI"
+inurl:/PRESENTATION/HTML/TOP/PRTINFO.HTML
+intitle:"LK IHC controller" intext:"LK IHC"
+intitle:"Openstage IP Phone User" "IPv4" "DNS"
+"USB Port 1 (Public Data)" + "USB Port 2 (Public Data)" "Status" -pdf
+intitle:"DD-WRT (build 21061) - Info"
+inurl:ip_password.htm
+intitle:"DSM mobile" intext:"Loading..."
+intitle:"Web Client" inurl:"webcamera.html"
+inurl:/DeviceInformation/View "Device Name"
+intitle:"NodeCore PoW Mining Pool" "NETWORK" "TYPE" "POOL ADDRESS" "FEE"
+intitle:"Login" inurl:"/simple/view/login.html"
+inurl:ip_snmp.htm
+intitle:"Bosch Security Systems" "LIVEPAGE" + "SETTINGS" -.net -.com
+intitle:"HD-Network Real Time Monitoring System" inurl:"/login.asp"
+intitle:"Milesight Network Camera" intext:"Language"
+intitle:"Sys Name" System Summary Sensors
+intitle:"Epson Web Control" "OSD Control Pad"
+site:*/net/net/protocol.html
+intitle:"Properties - Xerox WorkCentre" "Machine Model:" "Machine Name" -.com
+intitle:"Polycom Login" -.com
+intitle:"Saia PCD Web-Server"
+intitle:"NETSuveillance WEB"
+inurl:pas_set_menu.html
+inurl:"/intouch-base/rest/nlogin" intitle:"InTouch"
+inurl:"/index.html" intitle:"Unitronics PLC"
+intitle:"Vodafone Vox UI" | intitle:"Residential Gateway Login"
+intitle:"openHAB" intext:"Welcome to openHAB" "Basic UI" "Paper UI"
+intext:"Inserire il proprio codice per accedere al sistema" "Inserire codice"
+inurl:m_login.htm "Somfy"
+site:*/tcpipv6.htm
+inurl:/guestimage.html
+inurl:plc/webvisu.htm intitle:"CoDeSys WebVisualization"
+inurl:/view/viewer_index.shtml
+inurl:set_config_networkIP.html
+intitle:"webcamxp 5" intext: "live stream"
+inurl:"userimage.html" "Live" "Open"
+site:*/tcpipv4.htm
+intitle:"HD IP Camera" "Remember me" "User name" -.com -pdf
+inurl:set_config_security.htm
+intitle:"ePMP 2000" "notifications" "Menu" -pdf
+intitle:"ContaCam" "Snapshot Image"
+intitle:"Remote UI: Login:" "System Manager ID:"
+intitle:"Nordex Control" + "Wind Farm Total Summary"
+intitle:"Keenetic Web"
+inurl:/main/main.html "Administrator Settings"
+intitle:"Advanced Setup - Security - Admin User Name & Password"
+site:*.*/level/15/exec/-/ "Exec Configure"
+intitle:"Total Web Solutions" + "Meter Name"
+"Copyright(C) CONTEC CO.LTD"
+intitle:("WebRTU z2" | "WebRTU z1") -pdf
+intitle:("OnCell Web Console" | "Series Web Console" | "-HSPA Series Web" | "-HSDPA Series Web") "MOXA OnCell" "Username :" "Password :" -pdf
+intitle:"PowerLogic ION" + "Control" + "Diagnostic" + "Home" + "Maintenance" + "Monitoring"
+intitle:"Intelbras" inurl:cgi-bin/firmware.cgi?formNumber=200
+inurl:login.html intitle:"GPON Home Gateway"
+inurl:"portal.mwsl" "Status"
+intitle:"IP Webcam" inurl:"/greet.html"
+"Account" "Password" "All rights reserved" intitle:"HG8245"
+intitle:"D-LINK SYSTEMS, INC. | Web File Access : Login"
+inurl:login.html intitle:"Archer C7"
+site:*/dyn_sensors.htm "ID"
+inurl:dtm.html intitle:1747-L551
+inurl:/Jview "zoom"
+AXIS Camera exploit
+"System" + "Toner" + "Input Tray" + "Output Tray" inurl:cgi
+intitle:"NetCamXL*"
+intitle:"NetCamSC*"
+intitle:"Agent web client: Phone Login"
+"change the Administrator Password." intitle:"HP LaserJet" -pdf
+inurl: inurl:"view.shtml" ext:shtml
+intext:"Connection" AND "Network name" AND " Cisco Meraki cloud" AND "Security Appliance details"
+inurl:/Jview.htm + intext:"Zoom :"
+inurl:"view.shtml" "Network"
+inurl:"view.shtml" "camera"
+inurl:"/cgi-bin/guestimage.html" "Menu"
+inurl:/Jview.htm + "View Video - Java Mode"
+inurl:/homej.html?
+inurl:/index.html?size=2&mode=4
+inurl: 1051/viewer/live/index.html?lang=en
+intitle:"NetCamSC*" | intitle:"NetCamXL*" inurl:index.html
+inurl:set_config_password.html
+inurl:/8080 "windows" "live view"
+"Pop-up" + "Live Image" inurl:index.html
+inurl:"webArch/mainFrame.cgi" + "Web Image Monitor"
+inurl:"live/cam.html"
+inurl:/CgiStart?page
+inurl:"/viewer/live.html"
+inurl:"/viewer/live/index.html"
+intitle:"Rockwell Automation" inurl:"index.html" "Device Name"
+inurl:8080/view/viewer_index.shtml?id= -site:*.com
+inurl:/presentation/html/top/index.html
+intitle:"Miniweb Start Page"
+allintitle:"Welcome to the Web-Based Configurator"
+inurl:"view.shtml" "Network Camera"
+intitle:"Tuxedo Connected Controller"
+inurl:/config/cam_portal.cgi "Panasonic"
+inurl:.*eservices/login
+"Camera Live Image" inurl:"guestimage.html"
+intitle:"UPS Status" "Status" inurl:/host
+intitle:"webcam" inurl:login
+inurl:8081/ "Pan, Tilt & Zoom"
+"HP LaserJet" inurl:"SSI/index.htm"
+intext:"Frame rate" inurl:/home/homej.html
+intext:"Device Name" | intext:"Host Name" inurl:mainFrame.cgi
+inurl:axis-cgi/mjpg/video swf
+inurl:/home/homej.html
+inurl:/ViewerFrame? intitle:"Network Camera NetworkCamera"
+inurl:"/general/status.html"
+inurl:axis-cgi/jpg
+inurl /view.shtml intext:"Airport"
+intitle:"SFXAdmin - sfx_global" intext:"Login Form"
+inurl:/sws/index.html
+inurl:/base/main_login.html intext:"Login"
+inurl:/jobq.htm AND intext:"ApeosPort-V"
+inurl:index.shtml
+allinurl:top.htm?Currenttime
+intitle:"HP ALM" "Application Lifecycle Management" inurl:/qcbin/ -ext:PDF
+intitle:"WEBCAM 7 " -inurl:/admin.html
+site:*/EWS/Exchange.asmx
+inurl:/db.php?path_local=
+inurl:/gmap.php?id=
+intitle:"WeatherLinkIP Configuration"
+intitle:"Kyocera Command Center" inurl:index.htm
+intitle:"Internet Services" inurl:default.htm intext:"FUJI XEROX"
+inurl:/index.htm intext:"Oki Data Corporation"
+inurl:8080/dashboard intitle:Graphite Dashboard
+inurl:8080/dashboard.php
+inurl:mainFrame.cgi intext:"RICOH"
+inurl:sws/index.html AND intext:"Model Name" AND intext:"Serial Number"
+inurl:/?MAIN=DEVICE intitle:TopAccess intext:Device
+inurl:/main.html intext:SHARP AND intext:MX-*
+inurl:/dana-cached/sc/
+inurl:/dana/home/ filetype:cgi
+intitle:"index of" "cvsweb.cgi"
+inurl:./sws/index.sws
+inurl:SSI/index.htm
+inurl:/frameprop.htm
+intitle:"Printer Status" AND inurl:"/PrinterStatus.html"
+inurl:"/English/pages_WinUS/" AND intitle:"Top page"
+inurl:cgistart
+intitle:NetworkCamera intext:"Pan / Tilt" inurl:ViewerFrame
+inurl:axis-cgi/mjpg/video.cgi
+inurl:view.shtml
+inurl:/live.htm intext:"M-JPEG"|"System Log"|"Camera-1"|"View Control"
+inurl:/HDDReplay.html
+inurl:8000 intext:"Copyright CANON INC. 2012"
+intitle:"webcamXP 5" inurl:8080 'Live'
+intitle:("Solr Admin") AND intext:("Dashboard" AND "Corporation")
+intitle:("Solr admin page") AND intext:("Make a Query")
+intext:"EWS Data Collection and Use"
+inurl:hp/device/deviceinformation
+intitle:ThingsBoard inurl:8080/dashboard
+filetype:psp intitle:"Motorola - FX9500"
+inurl:"view/index.shtml"
+inurl:"MultiCameraFrame?Mode=Motion"
+"VB Viewer" inurl:/viewer/live/ja/live.html
+inurl:"nobody/loginQuick.htm"
+intitle:"IP CAMERA Viewer" intext:"setting | Client setting"
+site:*/cgi-bin/webproc intext:"username"
+inurl:/swagger/index.html
+intext:"Security is Off" intitle:"Namenode information"
+"Firmware Version" intitle:"iLO" ProLiant Login -hpe.com -update
+intitle:rsview32 ext:asp
+intitle:"WSO2 Management Console"
+inurl:"/index.php?enter=guest"
+inurl:"8080/dashboard/" intitle:"Dashboard"
+intitle:"Home - Mongo Express"
+inurl:CGI/Java/Serviceability?adapter=device.statistics.device
+intitle:"Marshall VS Server"
+intext:{{szErrorTip}} inurl:/doc/page/login.asp
+intitle:"openshift web console" inurl:console inurl:/console
+inurl:"/hp_login.html"
+inurl:webArch/mainFrame filetype:cgi intext:"Web Image Monitor"
+intitle:"VideoEdge Admin Interface"
+site:member.*.*/auth/login
+intitle:Grafana - Home inurl:/orgid
+intitle:apache couchdb - futon: overview inurl:/_utils
+inurl:ftp://ftp
+inurl:ftp://ftp robots.txt
+inurl:app/kibana intext:Loading Kibana
+inurl:/_cat/indices/
+inurl:8443 AND -intitle:8443 AND -intext:8443 prohibited|restricted|unauthorized
+intext:" Welcome to DSL-2730B Web Management"
+intitle:"Pi-hole Admin Console"
+intitle:"LaserJet" "Device status" "Supplies summary"
+inurl:/web-console/ServerInfo.jsp | inurl:/status?full=true
+inurl:/CFIDE/administrator/index.cfm | inurl:/CFIDE/componentutils/login.cfm | inurl:/CFIDE/main/ide.cfm | inurl:/CFIDE/wizards/
+intext:"series Network Configuration" AND intext:"canon"
+inurl:TOP/PRTINFO.HTML
+inurl:/clusters intitle:"kafka Manager"
+inurl:/pages/default.aspx | inurl:/páginas/default.aspx
+"Powered by ViewVC 1.0.3"
+inurl:/signin.php?ret=
+"This service is powered by a copy of ZendTo"
+Find 3cx Phone System Management Console
+site:azurewebsites.net inurl:.gov | .mil | .edu
+"Powered by Trac 1.0.2"
+inurl:8000/portal/
+inurl:/portal/apis/fileExplorer/
+intitle:'Welcome to JBoss AS'
+"/1000/system_information.asp"
+intitle:"NetcamSC IP Address"
+allinurl:asdm.jnlp
+inurl:/snap.cgi?&-getpic
+intitle:"Home-CUPS" intext:printers -mugs
+intitle:"Device(" AND intext:"Network Camera" AND "language:" AND "Password"
+intext:"Any time & Any where" AND "Customer Login"
+intitle:"Screenly OSE" intext:"Schedule Overview" AND "Active Assets" AND "Inactive Assets"
+inurl:"fhem.cfg" AND 'fhem.cfg' -github
+intitle:"webcam 7" inurl:'/gallery.html'
+ Login"intitle:"Login - Xfinity" AND "Gateway 
+intitle:QueryService Web Service
+"Please click here to download and install the latest plug-in. Close your browser before installation."
+inurl:/setup.cgi@next_file=
+intitle: "Nexus Repository Manager"
+inurl:/help/lang/en/help
+inurl:public.php inurl:service ext:php
+intitle:ProFTPD Admin - V1.04
+intitle:"VB Viewer"
+inurl:/certsrv/certrqus.asp
+inurl:/sample/LvAppl/lvappl.htm
+allinurl:control/multiview
+allinurl:DialogHandler.aspx
+intitle:"VertrigoServ" + "Welcome to VertrigoServ"
+intitle:"Swagger UI - " + "Show/Hide"
+inurl:"swagger-ui/index.html"
+intitle:"SQLiteManager" + intext:"Welcome to SQLiteManager version "
+inurl:phpPgAdmin intext:"Cappuccino" | intext:"Blue/Green"
+inurl:/Portal/Portal.mwsl?PriNav=FileBrowser
+inurl:home.tcl intitle:gaia
+site:drive.google.com /preview intext:movie inurl:flv | wmv | mp4 -pdf -edit -view
+intext:"Build dashboard" intext:"Project" intext:"Plan" intext:"Build"
+inurl:"/gitweb.cgi?"
+(intitle:"plexpy - home" OR "intitle:tautulli - home") AND intext:"libraries"
+intitle:"UltraDNS Client Redirection Service"
+inurl:'/SSI/Auth/ip_configuration.htm'
+intext:"Powered by www.yawcam.com"
+intext:"default values: admin/1234"
+intitle:'System Web Interface: WATTrouter M'
+inurl:jpegpull.htm
+intitle:Munin :: overview
+inurl:"mjpg/video.cgi?resolution="
+intext:build:SVNTag= JBoss intitle:Administration Console inurl:web-console
+inurl:report.cgi?dashboard=
+inurl:":2083/login/?user="
+intext:"https://chat.whatsapp.com/invite/" intitle:"Your Search For Company/Subject/Whatever"
+ext:php + inurl:"ajaxfilemanager.php" + intext:"Current Folder Path"
+intitle:"Yawcam" inurl:8081
+inurl:control/camerainfo
+inurl:cloud_main.asp
+inurl::5601/app/kibana
+inurl:public "Powered by SecureW2"
+"ADS-B Receiver Live Dump1090 Map "
+inurl:/add_vhost.php?lang=
+inurl:"/cgi-bin/filemanager/Manager.pl"
+intitle:Armstrong Hot Water System Monitoring
+inurl:embed.html inurl:dvr
+intitle:"Status & Control" + "Thermostat Status" +"HVAC Settings" +"Zone Temperature"
+inurl:"apps/console/sepm"
+inurl:"/websys/webArch/mainFrame.cgi" -hatana
+inurl:"/address/speeddial.html?start" and intext:"Please configure the password" and intitle:"Brother"
+inurl:"ews/setting/setews.htm"
+"Use these fields to set or change the Administrator Password. When set, the Administrator Password is required before you can access and change configuration parameters. To disable the Administrator Password, leave the entries blank."
+inurl:guestimage.html
+inurl:"set_config_networkIPv6.html"
+inurl:share.cgi?ssid=
+inurl:"img/main.cgi?next_file"
+inurl:"/api/index.php" intitle:UniFi
+intitle:"twonky server" inurl:"9000" -intext:"9000"
+inurl:scgi-bin intitle:"NETGEAR ProSafe"
+intitle:"Namenode information" AND inurl:":50070/dfshealth.html"
+intitle:"cuckoo sandbox" "failed_reporting"
+intitle:"GitBucket" intext:"Recent updated repositories" intext:"Sign In"
+inurl:"/ADVANCED/COMMON/TOP"
+intitle:"Namenode information"
+inurl:"/ap/recuperadocumentossql.aspx"
+inurl:login.cgi intitle:NETGEAR
+inurl:"g2_view=webdav.WebDavMount"
+intitle:"Setup Home" "Internet Status" -belkin
+inurl:"ftp://www." "Index of /"
+inurl:"8080/jmx-console"
+intitle:"webcamXP 5" -download
+inurl:"http://ftp.dlink"
+intitle:"Welcome to ZyXEL" -zyxel.com
+inurl:"/view/view.shtml?id="
+(site:onion.link | site:onion.cab | site:tor2web.org | site:onion.sh | site:tor2web.fi | site:onion.direct)
+inurl:"multimon.cgi" intitle:"UPS"
+inurl:"this.LCDispatcher?nav="
+inurl:"http://voicemail."
+inurl:"lvappl.htm"
+intext:VIEWS · Server: - Database: information_schema - Table: SCHEMA_PRIVILEGES · Browse · Structure · SQL · Search · Export
+inurl:"/HtmlAdaptor?action="
+inurl:cgi-bin/lsnodes_web?node
+inurl:"/graphs" intext:"Traffic and system resource graphing"
+inurl:~/ftp://193 filetype:(php | txt | html | asp | xml | cnf | sh) ~'/html'
+inurl:cgi-bin "ARRIS Enterprises"
+inurl:"/viewlsts.aspx?BaseType="
+"All site content" ext:aspx
+inurl:"/html/modeminfo.asp?
+intitle:"Log In to AR Web"
+site:webex.com inurl:tc3000
+inurl:/mjpg/video.mjpg
+intitle:"Login" inurl:"/doc/page/login.asp"
+intitle:Leaf PHP Mailer by [leafmailer.pw] ext:php
+intext:SOAP 1.1 intext:SOAP 1.2 intext:UPLOAD intext:GET intext:POST inurl:op
+inurl:"apc.php" intitle:"APC INFO"
+inurl:"-/monitoring" "statistics of JavaMelody"
+"Upload" inurl:"https://webfiles"
+inurl:/mjpgmain.asp
+intitle:"open webif" "Linux set-top-box"
+intitle:"StrongLoop API Explorer" intext:"Token Not Set"
+inurl:/Portal/Portal.mwsl
+inurl:top.htm inurl:currenttime
+inurl:/awcuser/cgi-bin/
+intext:"Powered by BOMGAR"
+inurl:"/owncloud/public.php" -github -forum
+/@fmb80_encoder.htm
+inurl:userRpm inurl:LoginRpm.htm
+inurl:/view/viewer_index.shtml
+inurl:lg intitle:"Looking Glass"
+intext:"powered by webcamXP 5"
+intitle:"Residential Gateway Configuration:" intext:"Cable Modem Information."
+intitle:"TRENDnet" (inurl:"top.htm"| inurl:"STSSYS.HTM"| inurl:"AVIEW.HTM"| inurl:"JPlug.htm" | inurl:"JVIEW.HTM")
+intitle:Tenda ADSL2/2+ Modem inurl:main.html
+inurl:"topPage.cgi" | inurl:"mainFrame.cgi" intext:"Web Image Monitor"
+intitle:"SyncThru Web Service" inurl:"sws"
+inurl:"home.htm?cat=home" | inurl:"index.htm?cat=info" | inurl:"index.htm?cat=settings" | inurl:"index.htm?cat=network" | inurl:"index.htm?cat=bluetooth"
+inurl:"cgi-bin/dynamic/" inurl:"html" intitle:"Printer Status"
+inurl:"info_deviceStatus.html" | inurl:"info_suppliesStatus.html" | inurl:"info_configuration.html" | inurl:"info_config_network.html" | inurl:"info_specialPages.html" | inurl:"info_colorUsageJobLog.html" | inurl:"info_eventLog.html"
+inurl:login inurl:user inurl:pass -intext:pass -intext:user
+intitle:webcam 7 inurl:8080 -intext:8080
+intitle:"homematic webui"
+"Web page sent by InterMapper"
+inurl:phpPgAdmin/browser.php intitle:"phpPgAdmin"
+inurl:autodiscover/autodiscover ext:xml
+"IPSentry - Device Statistics Information"
+inurl:/tcpipv4.htm
+inurl:/tcpipv6.htm
+inurl:/cgi-bin/luci/freifunk/graph/olsrd/topology/
+inurl:/hp/device/supply_status.htm
+inurl:/index.htm?cat=info&pagesRemaining
+inurl:/index.htm?cat=info&printerInfo
+inurl:"cgi-bin" "No password set!" " There is no password set on this router."
+intitle:(build 13064) - Info
+intitle:"CPPLUS DVR -Web View"
+inurl:httpmon.php
+inurl:net/net/airprint.html
+inurl:/net/net/protocol.html
+inurl:trafficcams -intext:trafficcams ext:asp OR ext:htm
+intext:"This is Apache Hadoop release" "Local Logs"
+intitle:"router"inurl:"home.asp"
+intitle:index.of inurl:openwebmail -site:openwebmail.org
+intitle:"Solr Admin" "Core Admin" "Thread Dump"
+"Build ref: 26"
+inurl:webvisu.htm ext:htm
+inurl:axis.cgi ext:cgi
+intitle:Global Traffic Statistics "Ntop"
+inurl:printer/main.html
+intitle:"WebService Web Service" ext:asmx
+intitle:"IPCam" inurl:monitor2.htm
+inurl:browse.php inurl:kcfinder -github.com
+inurl:/set_config_password.html
+inurl:"/squid-reports/" AND intitle:"SARG reports"
+intitle:"hp laserjet" inurl:SSI/Auth/set_config_deviceinfo.htm
+allinurl:foldercontent.html?folder=
+allinurl:awstats.pl ext:pl
+inurl:"/certsrv" intext:"Select a task"
+inurl:/graphs/ intitle:RouterOs
+inurl:upsstats.cgi?host
+inurl:ftp inurl:Seagate inurl:Backup inurl:Plus inurl:Drive
+intitle:"AP Router New Generation" intext:"Status do AP Router"
+inurl:.cgi-bin/luci
+inurl:.cgi-bin/webproc
+".git" intitle:"Index of"
+inurl:dyn_sensors.htm
+inurl:cgi-bin/mailgraph.cgi
+inurl:"phy.htm" intitle:"Touchstone Status"
+dorks:SiteScope inurl:/SiteScope/cgi/go.exe/SiteScope?page=
+inurl:dfshealth.jsp
+intext:"Hikvision" inurl:"login.asp"
+inurl:"/public.php?service=files"
+intitle:not accepted inurl:"union+select" inurl:"id?="
+intitle:"IPCam Client"
+intitle:"RT at a glance" intext:"quick search"
+filetype:jnlp
+inurl:*/graphs* intitle:"Traffic and system resource graphing"
+intitle:"SPA504G Configuration"
+inurl:"/cgi-mod/index.cgi"
+intitle:"RouterOS router configuration page"
+inurl:"/webcm?getpage="
+intitle:"Web Client for EDVS"
+intitle:"Weather Wing WS-2"
+intitle:"NetBotz Network Monitoring Appliance"
+intitle:"Transponder/EOL Configuration:" inurl:asp
+intitle:"Web Image Monitor" & inurl:"/mainFrame.cgi"
+inurl:/voice/advanced/ intitle:Linksys SPA configuration
+inurl:/control/userimage.html
+intitle:"Pyxis Mobile Test Page" inurl:"mpTest.aspx"
+inurl:32400/web/index.html
+intitle:"dd-wrt info" intext:"Firmware: DD-WRT"
+inurl:"/level/13|14|15/exec/"
+inurl:"Orion/SummaryView.aspx" intext:"Orion Core"
+intitle:"hp laserjet" inurl:info_configuration.htm
+intext:"You may also donate through the Moneybookers account mb@dd-wrt"
+'apc info' 'apc.php?SCOPE='
+inurl:Settings.aspx intitle:Beyond TV
+intitle:"HtmlAnvView:D7B039C1"
+inurl:cgi-bin/cosmobdf.cgi?
+inurl:RgFirewallRL.asp | inurl:RgDmzHost.asp | inurl:RgMacFiltering.asp | inurl:RgConnect.asp | inurl:RgEventLog.asp | inurl:RgSecurity.asp | inurl:RgContentFilter.asp | inurl:wlanRadio.asp
+intitle:SpectraIV-IP
+inurl:/cgi-bin/makecgi-pro
+allintitle:"UniMep Station Controller"
+inurl:":9000" PacketVideo corporation
+inurl:/level/15/exec/-/configure/http
+inurl:/exec/show/tech-support/cr
+inurl:/level/15/exec/-
+allintitle:"SyncThru Web Service"
+intitle:"EvoCam" inurl:"webcam.html"
+"LANCOM DSL/*-* Office *" "Entry Page"
+"Welcome to the CyberGuard unit!"
+"SnapGear Management Console" "Welcome to the SnapGear Unit!" -pdf
+intitle:"Your Network Device" Status (LAN | WAN)
+intitle:"Net2Phone Init Page"
+intitle:Top "Vantage Service Gateway" -inurl:zyxel
+inurl:wrcontrollite
+allintitle:"DVR login"
+intitle:"stingray fts login" | ( login.jsp intitle:StingRay )
+allintitle: EverFocus | EDSR | EDSR400 Applet
+allintitle:Edr1680 remote viewer
+allintitle: EDR1600 login | Welcome
+allintitle: EDR400 login | Welcome
+intitle:"Divar Web Client"
+intitle:"Live View / - AXIS" | inurl:view/view.shtml OR inurl:view/indexFrame.shtml | intitle:"MJPG Live Demo" | "intext:Select preset position"
+allintitle: Axis 2.10 OR 2.12 OR 2.30 OR 2.31 OR 2.32 OR 2.33 OR 2.34 OR 2.40 OR 2.42 OR 2.43 "Network Camera "
+intitle:"BlueNet Video Viewer"
+intitle:"SNC-RZ30" -demo
+intitle:"Veo Observer XT" -inurl:shtml|pl|php|htm|asp|aspx|pdf|cfm -intext:observer
+(intitle:(EyeSpyFX|OptiCamFX) "go to camera")|(inurl:servlet/DetectBrowser)
+inurl:cgi-bin/guestimage.html
+intitle:"iGuard Fingerprint Security System"
+intitle:"Device Status Summary Page" -demo
+(intitle:MOBOTIX intitle:PDAS) | (intitle:MOBOTIX intitle:Seiten) | (inurl:/pda/index.html +camera)
+intitle:"IVC Control Panel"
+intitle:"DVR Client" -the -free -pdf -downloads -blog -download -dvrtop
+"OK logout" inurl:vb.htm?logout=1
+intitle:"Edr1680 remote viewer"
+intitle:"AR-*" "browser of frame dealing is necessary"
+intext:"you to handle frequent configuration jobs easily and quickly" | intitle:"Show/Search other devices"
+intitle:"NAS" inurl:indexeng.html
+intitle:"Skystream Networks Edge Media Router" -securitytracker.com
+intitle:"Ethernet Network Attached Storage Utility"
+intitle:"GigaDrive Utility"
+http://www.google.com/search?q=intitle:%22Webview+Logon+Page%22&filter=0
+intitle:"WxGoos-" ("Camera image"|"60 seconds" )
+intext:"Welcome to Taurus" "The Taurus Server Appliance" intitle:"The Taurus Server Appliance"
+inurl:setdo.cgi intext:"Set DO OK"
+intitle:"::::: INTELLINET IP Camera Homepage :::::
+intitle:"Dell Laser Printer *" port_0 -johnny.ihackstuff
+intitle:Axis inurl:"/admin/admin.shtml"
+inurl:/img/vr.htm
+DCS inurl:"/web/login.asp"
+inurl:Printers/ipp_0001.asp
+intitle:"Snap Server" intitle:"Home" "Active Users"
+intitle:"Sony SNT-V304 Video Network Station" inurl:hsrindex.shtml
+Display Cameras intitle:"Express6 Live Image"
+intitle:"SNOIE Intel Web Netport Manager" OR intitle:"Intel Web Netport Manager Setup/Status"
+intitle:"Summit Management Interface" -georgewbush.org.uk
+intitle:Cisco "You are using an old browser or have disabled javascript. You must use version 4 or higher of Netscape Navigator/Communicator"
+intitle:"Iomega NAS Manager" -ihackstuff.com
+"This page is for configuring Samsung Network Printer" | printerDetails.htm
+("port_255/home")|(inurl:"home?port=255")
+intitle:"IQeye302 | IQeye303 | IQeye601 | IQeye602 | IQeye603" intitle:"Live Images"
+intitle:"Biromsoft WebCam" -4.0 -serial -ask -crack -software -a -the -build -download -v4 -3.01 -numrange:1-10000
+(intitle:"VisionGS Webcam Software")|(intext:"Powered by VisionGS Webcam") -showthread.php -showpost.php -"Search Engine" -computersglobal.com -site:g
+intitle:"Netcam" intitle:"user login"
+intitle:"Orite IC301" | intitle:"ORITE Audio IP-Camera IC-301" -the -a
+Phaser numrange:100-100000 Name DNS IP "More Printers" index help filetype:html | filetype:shtml
+intitle:"netbotz appliance" -inurl:.php -inurl:.asp -inurl:.pdf -inurl:securitypipeline -announces
+intitle:"NetCam Live Image" -.edu -.gov -johnny.ihackstuff.com
+intitle:"INTELLINET" intitle:"IP Camera Homepage"
+intitle:iDVR -intitle:"com | net | shop" -inurl:"asp | htm | pdf | html | php | shtml | com | at | cgi | tv"
+http://www.google.com/search?q=intitle:%22Network+Storage+Link+for+USB+2.0+Disks%22+Firmware&num=100&hl=en&lr=&c2coff=1&safe=off&filter=0
+intitle:"V1" "welcome to phone settings" password
+intitle:"HP ProCurve Switch *" "This product requi
+"Summary View of Sensors" | "sensorProbe8 v *" | "
+intitle:"TANDBERG" "This page requires a frame capable browser!"
+intitle:"Middle frame of Videoconference Management System" ext:htm
+intitle:"Veo Observer Web Client"
+intitle:"Java Applet Page" inurl:ml
+intitle:"WEBDVR" -inurl:product -inurl:demo
+tilt intitle:"Live View / - AXIS" | inurl:view/view.shtml
+intitle:"AXIS 240 Camera Server" intext:"server push" -help
+inurl:"CgiStart?page="
+intitle:"GCC WebAdmin" -gcc.ru
+printers/printman.html
+intitle:"configuration" inurl:port_0
+intitle:"Dell Laser Printer M5200" port_0
+"RICOH Network Printer D model-Restore Factory"
+inurl:"S=320x240" | inurl:"S=160x120" inurl:"Q=Mob
+intitle:"Netopia Router (*.)""to view this site"
+(cam1java)|(cam2java)|(cam3java)|(cam4java)|(cam5java)|(cam6java) -navy.mil -backflip -power.ne.jp
+intitle:"Dell *" inurl:port_0
+intitle:"InterJak Web Manager"
+"To view the Web interface of the SpeedTouch, Java
+( intitle:"PacketShaper Login")|(intitle:"PacketShaper Customer Login")
+intitle:"PacketShaper Customer Login"
+intext:"Powered by: Adobe PrintGear" inurl:admin
+intitle:"--- VIDEO WEB SERVER ---" intext:"Video Web Server" "Any time & Any where" username password
+inurl:start.htm?scrw=
+ext:dhtml intitle:"document centre|(home)" OR intitle:"xerox"
+intitle:"SWW link" "Please wait....."
+intitle:"Freifunk.Net - Status" -site:commando.de
+inurl:"port_255" -htm
+"Please use Netscape 2.0 or enhance !!" -site:dlink.com -site:ovislink.com.tw
+intitle:"NeroNET - burning online"
+"display printer status" intitle:"Home"
+intitle:"OfficeConnect Cable/DSL Gateway" intext:"Checking your browser"
+intitle:"OfficeConnect Wireless 11g Access Point" "Checking your browser"
+intitle:"Lexmark *" inurl:port_0
+inurl:/en/help.cgi "ID=*"
+intitle:jdewshlp "Welcome to the Embedded Web Server!"
+inurl:JPGLogin.htm
+"About Winamp Web Interface" intitle:"Winamp Web Interface"
+intitle:"Flash Operator Panel" -ext:php -wiki -cms -inurl:asternic -inurl:sip -intitle:ANNOUNCE -inurl:lists
+intitle:"Service Managed Gateway Login"
+intitle:"actiontec" main setup status "Copyright 2001 Actiontec Electronics Inc"
+"Webthru User Login"
+intitle:asterisk.management.portal web-access
+intitle:"BorderWare MXtreme Mail Firewall Login"
+intitle:HomeSeer.Web.Control | Home.Status.Events.Log
+inurl:camctrl.cgi
+allintitle:Brains, Corp. camera
+intitle:"Dell Laser Printer" ews
+intitle:"supervisioncam protocol"
+intitle:"switch login" "IBM Fast Ethernet Desktop"
+intitle:Linksys site:ourlinksys.com
+intitle:"active webcam page"
+intitle:"DEFAULT_CONFIG - HP"
+intext:"Please enter correct password for Administrator Access. Thank you" "Copyright Ãƒâ€šÃ‚Â© 2003 SMC Networks, Inc. All rights reserved."
+intitle:"Brother" intext:"View Configuration" intext:"Brother Industries, Ltd."
+intitle:"Connection Status" intext:"Current login"
+inurl:na_admin
+intitle:"EpsonNet WebAssist Rev"
+allinurl:index.htm?cus?audio
+inurl:"8003/Display?what="
+intitle:"EverFocus.EDSR.applet"
+intitle:"Browser Launch Page"
+intitle:"Network Print Server" filetype:shtm ( inurl:u_printjobs | inurl:u_server | inurl:a_server | inurl:u_generalhelp | u_printjobs )
+intitle:"Network Print Server" intext:"http://www.axis.com" filetype:shtm
+filetype:cgi transcoder.cgi
+intitle:"Setup Home" "You will need * log in before * * change * settings"
+intitle:"SpeedStream * Management Interface"
+inurl:"next_file=main_fs.htm" inurl:img inurl:image.cgi
+intitle:"Sipura.SPA.Configuration" -.pdf
+intitle:"Cayman-DSL.home"
+intitle:"iVISTA.Main.Page"
+inurl:":631/printers" -php -demo
+intitle:"Spam Firewall" inurl:"8000/cgi-bin/index.cgi"
+Axis Video Manual
+intitle:"Live NetSnap Cam-Server feed"
+intitle:"V-Gear BEE"
+intitle:"AudioReQuest.web.server"
+axis storpoint "file view" inurl:/volumes/
+"Copyright (c) Tektronix, Inc." "printer status"
+intext:"MaiLinX Alert (Notify)" -site:networkprinters.com
+inurl:"printer/main.html" intext:"settings"
+inurl:"ipp/pdisplay.htm"
+intext:"Videoconference Management System" ext:htm
+intitle:"Smoothwall Express" inurl:cgi-bin "up * days"
+intitle:"ipcop - main"
+intitle:"EvoCam" inurl:"webcam.html"
+"Starting SiteZAP 6.0"
+inurl:axis-cgi
+intext:"Ready with 10/100T Ethernet"
+intext:"UAA (MSB)" Lexmark -ext:pdf
+"intitle:Cisco Systems, Inc. VPN 3000 Concentrator"
+intitle:"Home" "Xerox Corporation" "Refresh Status"
+WebControl intitle:"AMX NetLinx"
+"please visit" intitle:"i-Catcher Console" Copyright "iCode Systems"
+intitle:"toshiba network camera - User Login"
+inurl:"level/15/exec/-/show"
+intitle:"DVR Web client"
+site:.viewnetcam.com -www.viewnetcam.com
+inurl:TiVoConnect?Command=QueryServer
+inurl:netw_tcp.shtml
+intitle:"my webcamXP server!" inurl:":8080"
+(inurl:webArch/mainFrame.cgi ) | (intitle:"web image monitor" -htm -solutions)
+camera linksys inurl:main.cgi
+intitle:"DEFAULT_CONFIG - HP"
+intitle:"switch home page" "cisco systems" "Telnet - to"
+inurl:hp/device/this.LCDispatcher
+intitle:webeye inurl:login.ml
+intitle:"axis storpoint CD" intitle:"ip address"
+intitle:"remote ui:top page"
+intitle:"Live View / - AXIS" | inurl:view/view.sht
+intitle:"The AXIS 200 Home Page"
+("Fiery WebTools" inurl:index2.html) | "WebTools enable * * observe, *, * * * flow * print jobs"
+intitle:"network administration" inurl:"nic"
+inurl:sts_index.cgi
+intitle:RICOH intitle:"Network Administration"
+intitle:"lantronix web-manager"
+intitle:"dreambox web"
+intext:centreware inurl:status
+intitle:liveapplet inurl:LvAppl
+"Phaser 6250" "Printer Neighborhood" "XEROX CORPORATION"
+"PhaserÃƒâ€šÃ‚Â® 740 Color Printer" "printer named: "
+"Phaser 8200" "Ãƒâ€šÃ‚Â© Xerox" "refresh" " Email Alerts"
+"PhaserÃƒâ€šÃ‚Â® 840 Color Printer" "Current Status" "printer named:"
+intitle:"Live View / - AXIS"
+intitle:"BorderManager Information alert"
+"powered by webcamXP" "Pro|Broadcast"
+inurl:"ViewerFrame?Mode="
+sNC-RZ30 HOME
+intitle:flexwatch intext:"Home page ver"
+intitle:snc-z20 inurl:home/
+(intext:"MOBOTIX M1" | intext:"MOBOTIX M10") intext:"Open Menu" Shift-Reload
+intitle:"WJ-NT104 Main Page"
+intitle:"View and Configure PhaserLink"
+inurl:indexFrame.shtml Axis

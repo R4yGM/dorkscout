@@ -1,0 +1,41 @@
+intitle:"index of" "db.properties" | "db.properties.BAK"intitle:"index of" "credentials.xml" | "credentials.inc" | "credentials.txt"
+intitle:"index of" "password.yml
+jdbc:sqlserver://localhost:1433 + username + password ext:yml | ext:java
+"'dsn: mysql:host=localhost;dbname=" ext:yml | ext:txt "password:"
+intitle:"index of" "sitemanager.xml" | "recentservers.xml"
+intitle:"index of" "filezilla.xml"
+inurl:user intitle:index of ext:sql | xls | xml | json | csv
+filetype:csv intext:"Secret access key"
+"DefaultPassword" ext:reg "[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTCurrentVersionWinlogon]"
+jdbc:mysql://localhost:3306/ + username + password ext:yml | ext:java -git -gitlab
+intitle:"index of" "/parameters.yml*"
+"CREATE ROLE" + "ENCRYPTED PASSWORD" ext:sql | ext:txt | ext:ini -git -gitlab
+File contains Sensitive Information
+"index of" "users.frm"
+intitle:"index of" "tomcat-users.xml"
+intitle:"index of" "/ftpusers"
+intitle:"index of" "users.sql"
+allintext:username filetype:log
+intitle:"index of" service.grp
+intitle:index.of "users.db"
+"username.xlsx" ext:xlsx
+inurl:/_layouts/mobile/view.aspx?List=
+"authentication failure; logname=" ext:log
+inurl:/profile.php?lookup=1
+inurl:"/root/etc/passwd" intext:"home/*:"
+intext:"root:x:0:0:root:/root:/bin/bash" inurl:*=/etc/passwd
+site:extremetracking.com inurl:"login="
+intext:"SteamUserPassphrase=" intext:"SteamAppUser=" -"username" -"user"
+inurl:root.asp?acs=anon
+filetype:conf inurl:proftpd.conf -sample
+filetype:log username putty
+filetype:reg reg +intext:"internet account manager"
+filetype:reg reg HKEY_CURRENT_USER username
++intext:"webalizer" +intext:"Total Usernames" +intext:"Usage Statistics for"
+inurl:php inurl:hlstats intext:"Server Username"
+"index of" / lck
+index.of perform.ini
+inurl:admin inurl:userlist
+inurl:admin filetype:asp inurl:userlist
+intitle:index.of .sh_history
+intitle:index.of .bash_history

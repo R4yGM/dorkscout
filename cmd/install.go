@@ -10,6 +10,7 @@ import (
 	"os"
 	"github.com/spf13/cobra"
 	"time"
+	"path/filepath"
 )
 
 var (
@@ -25,21 +26,47 @@ these payloads are downloaded from exploit-db.com where then this lists will be 
 to be passed with the -o or --output-dir flag, and now this lists can be used to start scanning with dorkscout`,
 		Run: func(cmd *cobra.Command, args []string) {
 
+			startTime := time.Now()
+
 			if _, err := os.Stat(outputDir); os.IsNotExist(err) {
 
 				log.Fatal(fmt.Sprintf("Error : the directory '%s' does not exist ",outputDir))
 
 			}
 
-			delete_old_dorks()
+			delete_old_dorks(outputDir)
 
 			install_dorks()
 
 			now := time.Now()
 
-			ioutil.WriteFile(fmt.Sprintf("%s/.dorkscout",outputDir), []byte(fmt.Sprintf("dorks installation finished at %d with %d payloads",now.Unix(),int(dorksCount))), 0644)
+			ioutil.WriteFile(fmt.Sprintf("%s/.dorkscout",outputDir), []byte(fmt.Sprintf(`{ "result" : "dorks installation finished without any errors", "timestamp" : "%d", "payloads" : %d }`,now.Unix(),int(dorksCount))), 0644)
 
-			log.Println("Installation finished")
+			d, err := os.Open(outputDir)
+			if err != nil {
+				fmt.Println(err,"a")
+				os.Exit(1)
+			}
+			defer d.Close()
+		
+			files, err := d.Readdir(-1)
+			if err != nil {
+				fmt.Println(err,"a")
+				os.Exit(1)
+			}
+		
+		
+			for _, file := range files {
+				if file.Mode().IsRegular() {
+					if filepath.Ext(file.Name()) == ".dorkscout" {
+						fmt.Println(fmt.Sprintf("[+] %s/%s",outputDir,file.Name()))
+					}
+				}
+			}
+
+			elapsed := time.Since(startTime)
+
+			log.Println(fmt.Sprintf("Installation finished in %f seconds on %s",elapsed.Seconds(), outputDir))
 		},
 	}
 )
