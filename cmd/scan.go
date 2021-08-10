@@ -85,7 +85,6 @@ func scan(i int) {
                         } else {
                                 fmt.Println(fmt.Sprintf("Started scanning with %s\n=====================================", payload))
                         }
-			fmt.Println("88")
                         switch true {
                         case NormalResultsPath != "":
                                 f, err := os.OpenFile(NormalResultsPath,
@@ -103,7 +102,6 @@ func scan(i int) {
                         }
                         i = i + 1
                         payload = text[i]
-			fmt.Println("89")
                 }
 
                 if target != "" {
@@ -186,8 +184,8 @@ func scan(i int) {
                                 fmt.Println(payload, " nothing found")
                                 fmt.Println("=====================================")
 
-                        } else if strings.Contains(err.Error(), "proxyconnect") && strings.Contains(err.Error(), "connect: connection refused") {
-                                log.Println(fmt.Sprintf("Can't connect to proxy : %s connection refused", proxy))
+                        } else if strings.Contains(err.Error(), "connect: connection refused") {
+                                log.Println(err.Error())
                                 return
                         }
                 }
