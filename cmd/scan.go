@@ -85,6 +85,7 @@ func scan(i int) {
                         } else {
                                 fmt.Println(fmt.Sprintf("Started scanning with %s\n=====================================", payload))
                         }
+			fmt.Println("88")
                         switch true {
                         case NormalResultsPath != "":
                                 f, err := os.OpenFile(NormalResultsPath,
@@ -102,11 +103,13 @@ func scan(i int) {
                         }
                         i = i + 1
                         payload = text[i]
+			fmt.Println("89")
                 }
 
                 if target != "" {
                         payload = payload + " site:" + target
                 }
+
                 result, err := googlesearch.Search(ctx, payload, googlesearch.SearchOptions{Limit: Limit, ProxyAddr: proxy})
                 if len(result) == 0 {
 
