@@ -1,140 +1,136 @@
 package cmd
 
 import (
-	"fmt"
-    "io/ioutil"
-    "log"
-    "net/http"
-	"github.com/buger/jsonparser"
-	"strings"
-	"os"
-	"github.com/spf13/cobra"
-	"time"
-	"path/filepath"
+        "fmt"
+        "github.com/buger/jsonparser"
+        "github.com/spf13/cobra"
+        "io/ioutil"
+        "log"
+        "net/http"
+        "os"
+        "path/filepath"
+        "strings"
+        "time"
 )
 
 var (
+        outputDir  string
+        dorksCount int64
 
-	outputDir     string
-	dorksCount	  int64
-
-	installCmd = &cobra.Command{
-		Use:   "install",
-		Short: "installs a list of dorks from exploit-db.com",
-		Long: `This command fetches and saves a list of dorks based on their category on different files,
+        installCmd = &cobra.Command{
+                Use:   "install",
+                Short: "installs a list of dorks from exploit-db.com",
+                Long: `This command fetches and saves a list of dorks based on their category on different files,
 these payloads are downloaded from exploit-db.com where then this lists will be saved in a directory that is going
 to be passed with the -o or --output-dir flag, and now this lists can be used to start scanning with dorkscout`,
-		Run: func(cmd *cobra.Command, args []string) {
+                Run: func(cmd *cobra.Command, args []string) {
 
-			startTime := time.Now()
+                        startTime := time.Now()
 
-			if _, err := os.Stat(outputDir); os.IsNotExist(err) {
+                        if _, err := os.Stat(outputDir); os.IsNotExist(err) {
 
-				log.Fatal(fmt.Sprintf("Error : the directory '%s' does not exist ",outputDir))
+                                log.Fatal(fmt.Sprintf("Error : the directory '%s' does not exist ", outputDir))
 
-			}
+                        }
 
-			delete_old_dorks(outputDir)
+                        delete_old_dorks(outputDir)
 
-			install_dorks()
+                        install_dorks()
 
-			now := time.Now()
+                        now := time.Now()
 
-			ioutil.WriteFile(fmt.Sprintf("%s/.dorkscout",outputDir), []byte(fmt.Sprintf(`{ "result" : "dorks installation finished without any errors", "timestamp" : "%d", "payloads" : %d }`,now.Unix(),int(dorksCount))), 0644)
+                        ioutil.WriteFile(fmt.Sprintf("%s/.dorkscout", outputDir), []byte(fmt.Sprintf(`{ "result" : "dorks installation finished without any errors", "timestamp" : "%d", "payloads" : %d }`, now.Unix(), int(dorksCount))), 0644)
 
-			d, err := os.Open(outputDir)
-			if err != nil {
-				fmt.Println(err,"a")
-				os.Exit(1)
-			}
-			defer d.Close()
-		
-			files, err := d.Readdir(-1)
-			if err != nil {
-				fmt.Println(err,"a")
-				os.Exit(1)
-			}
-		
-		
-			for _, file := range files {
-				if file.Mode().IsRegular() {
-					if filepath.Ext(file.Name()) == ".dorkscout" {
-						fmt.Println(fmt.Sprintf("[+] %s/%s",outputDir,file.Name()))
-					}
-				}
-			}
+                        d, err := os.Open(outputDir)
+                        if err != nil {
+                                fmt.Println(err, "a")
+                                os.Exit(1)
+                        }
+                        defer d.Close()
 
-			elapsed := time.Since(startTime)
+                        files, err := d.Readdir(-1)
+                        if err != nil {
+                                fmt.Println(err, "a")
+                                os.Exit(1)
+                        }
 
-			log.Println(fmt.Sprintf("Installation finished in %f seconds on %s",elapsed.Seconds(), outputDir))
-		},
-	}
+                        for _, file := range files {
+                                if file.Mode().IsRegular() {
+                                        if filepath.Ext(file.Name()) == ".dorkscout" {
+                                                fmt.Println(fmt.Sprintf("[+] %s/%s", outputDir, file.Name()))
+                                        }
+                                }
+                        }
+
+                        elapsed := time.Since(startTime)
+
+                        log.Println(fmt.Sprintf("Installation finished in %f seconds on %s", elapsed.Seconds(), outputDir))
+                },
+        }
 )
 
 func init() {
 
-	rootCmd.AddCommand(installCmd)
+        rootCmd.AddCommand(installCmd)
 
-	installCmd.PersistentFlags().StringVarP(&outputDir, "output-dir", "o", "" , "")
-	installCmd.MarkPersistentFlagRequired("output-dir")
+        installCmd.PersistentFlags().StringVarP(&outputDir, "output-dir", "o", "", "")
+        installCmd.MarkPersistentFlagRequired("output-dir")
 
 }
 
-func install_dorks(){
+func install_dorks() {
 
-	req, err := http.NewRequest("GET", "https://www.exploit-db.com/google-hacking-database?draw=1&columns%5B0%5D%5Bdata%5D=date&columns%5B0%5D%5Bname%5D=date&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=url_title&columns%5B1%5D%5Bname%5D=url_title&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=false&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=cat_id&columns%5B2%5D%5Bname%5D=cat_id&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=false&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=author_id&columns%5B3%5D%5Bname%5D=author_id&columns%5B3%5D%5Bsearchable%5D=false&columns%5B3%5D%5Borderable%5D=false&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=desc&start=0&length=6550&search%5Bvalue%5D=&search%5Bregex%5D=false&author=&category=&_=1627574522843", nil)
+        req, err := http.NewRequest("GET", "https://www.exploit-db.com/google-hacking-database?draw=1&columns%5B0%5D%5Bdata%5D=date&columns%5B0%5D%5Bname%5D=date&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=url_title&columns%5B1%5D%5Bname%5D=url_title&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=false&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=cat_id&columns%5B2%5D%5Bname%5D=cat_id&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=false&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=author_id&columns%5B3%5D%5Bname%5D=author_id&columns%5B3%5D%5Bsearchable%5D=false&columns%5B3%5D%5Borderable%5D=false&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=desc&start=0&length=6550&search%5Bvalue%5D=&search%5Bregex%5D=false&author=&category=&_=1627574522843", nil)
 
-	if err != nil {
-		// handle err
-	}
+        if err != nil {
+                // handle err
+        }
 
-	req.Header.Set("Accept", "application/json, text/javascript, */*; q=0.01")
-	req.Header.Set("Accept-Language", "it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3")
-	req.Header.Set("Referer", "https://www.exploit-db.com/google-hacking-database")
-	req.Header.Set("X-Requested-With", "XMLHttpRequest")
-	req.Header.Set("Connection", "keep-alive")
+        req.Header.Set("Accept", "application/json, text/javascript, */*; q=0.01")
+        req.Header.Set("Accept-Language", "it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3")
+        req.Header.Set("Referer", "https://www.exploit-db.com/google-hacking-database")
+        req.Header.Set("X-Requested-With", "XMLHttpRequest")
+        req.Header.Set("Connection", "keep-alive")
 
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		// handle err
-	}
-	defer resp.Body.Close()
+        resp, err := http.DefaultClient.Do(req)
+        if err != nil {
+                // handle err
+        }
+        defer resp.Body.Close()
 
-	body, err := ioutil.ReadAll(resp.Body)
+        body, err := ioutil.ReadAll(resp.Body)
 
-    if err != nil {
-        log.Fatal(err)
-    }
+        if err != nil {
+                log.Fatal(err)
+        }
 
-	dorksCount, err = jsonparser.GetInt(body, "recordsTotal")
+        dorksCount, err = jsonparser.GetInt(body, "recordsTotal")
 
-	re := strings.NewReplacer("<nil>", "", "</a>","")
-	jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
+        re := strings.NewReplacer("<nil>", "", "</a>", "")
+        jsonparser.ArrayEach(body, func(value []byte, dataType jsonparser.ValueType, offset int, err error) {
 
-		payload, err := jsonparser.GetString(value, "url_title")
-		category, err := jsonparser.GetString(value, "category","cat_title")
+                payload, err := jsonparser.GetString(value, "url_title")
+                category, err := jsonparser.GetString(value, "category", "cat_title")
 
-		if err != nil {
+                if err != nil {
 
-			log.Fatal(err)
-		}
-		
-		v := []string{}
-		v = strings.Split(re.Replace(payload), ">")
-		v[0] = v[len(v)-1]
-		v[len(v)-1] = "" 
-		v = v[:len(v)-1]  
+                        log.Fatal(err)
+                }
 
+                v := []string{}
+                v = strings.Split(re.Replace(payload), ">")
+                v[0] = v[len(v)-1]
+                v[len(v)-1] = ""
+                v = v[:len(v)-1]
 
-		file, err := os.OpenFile(fmt.Sprintf("%s/%s.dorkscout",outputDir,category), os.O_APPEND|os.O_WRONLY, 0644)
-		if err != nil {
-			ioutil.WriteFile(fmt.Sprintf("%s/%s.dorkscout",outputDir,category), []byte(strings.Join(v[:], "")), 0644)
-		}
-		defer file.Close()
-		if _, err := file.WriteString(fmt.Sprintf("%s\n",strings.Join(v[:], ""))); err != nil {
-			//log.Fatal(err)
-		}
+                file, err := os.OpenFile(fmt.Sprintf("%s/%s.dorkscout", outputDir, category), os.O_APPEND|os.O_WRONLY, 0644)
+                if err != nil {
+                        ioutil.WriteFile(fmt.Sprintf("%s/%s.dorkscout", outputDir, category), []byte(strings.Join(v[:], "")), 0644)
+                }
+                defer file.Close()
+                if _, err := file.WriteString(fmt.Sprintf("%s\n", strings.Join(v[:], ""))); err != nil {
+                        //log.Fatal(err)
+                }
 
-
-	}, "data")
+        }, "data")
 }
