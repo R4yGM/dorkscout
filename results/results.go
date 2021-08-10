@@ -123,7 +123,7 @@ func HTMLFinish(path string) {
 
         vars["Next"] = fmt.Sprintf("Finished scanning at %s, time elapsed %s", timeFinish.Format(time.RFC850), time.Since(timeStart))
 
-        tmpl, _ := template.New("template").Parse(tpl)
+        tmpl, _ := template.ParseFiles(path)
 
         file, _ := os.Create(path)
         defer file.Close()
@@ -156,7 +156,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
                         vars["NextResult"] = result
                         vars["Next"] = "{{.Next}}"
 
-                        tmpl, _ := template.New("template").Parse(tpl)
+                        tmpl, _ := template.ParseFiles(path)
 
                         file, _ := os.Create(path)
                         defer file.Close()
@@ -185,7 +185,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
 
                         vars["Next"] = result
 
-                        tmpl, _ := template.New("template").Parse(tpl)
+                        tmpl, _ := template.ParseFiles(path)
 
                         file, _ := os.Create(path)
                         defer file.Close()
@@ -211,7 +211,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
                         vars["NextResult"] = result
                         vars["Next"] = "{{.Next}}"
 
-                        tmpl, _ := template.New("template").Parse(tpl)
+                        tmpl, _ := template.ParseFiles(path)
 
                         file, _ := os.Create(path)
                         defer file.Close()
@@ -231,7 +231,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
 
                 vars["Next"] = result
 
-                tmpl, _ := template.New("template").Parse(tpl)
+                tmpl, _ := template.ParseFiles(path)
 
                 file, _ := os.Create(path)
                 defer file.Close()
@@ -249,7 +249,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
 
                 vars["Next"] = result
 
-                tmpl, _ := template.New("template").Parse(tpl)
+                tmpl, _ := template.ParseFiles(path)
 
                 file, _ := os.Create(path)
                 defer file.Close()
@@ -267,7 +267,7 @@ func HTMLInject(text string, isLast bool, a string, path string, isFirst bool) {
 
                 vars["Next"] = result
 
-                tmpl, _ := template.New("template").Parse(tpl)
+                tmpl, _ := template.ParseFiles(path)
 
                 file, _ := os.Create(path)
                 defer file.Close()
