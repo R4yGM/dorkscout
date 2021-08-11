@@ -1,0 +1,8 @@
+language: go
+
+services:
+  - docker
+
+script:
+- docker pull r4yan/dorkscout
+- docker run r4yan/dorkscout -h
