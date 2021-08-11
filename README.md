@@ -54,12 +54,12 @@ docker pull r4yan/dorkscout:latest
   so that you don't have to install them
   then you can start scanning by doing :
   ```bash
-sudo docker run -v Dorkscout:/dorkscout r4yan/dorkscout scan <options>
+docker run -v Dorkscout:/dorkscout r4yan/dorkscout scan <options>
   ```
   replace the `<options>` with the options/arguments you want to give to dorkscout,
   example :
    ```bash
-sudo docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
+docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
   ```
   
   **Always save your results inside the volume and not in the container because then the results will be deleted! you can save them by writing the same volume path of the directory you are saving the results**
