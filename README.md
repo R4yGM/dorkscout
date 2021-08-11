@@ -71,3 +71,57 @@ sudo docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout
   
   ## Executable
   you can also download the already compiled binaries [here](https://github.com/R4yGM/dorkscout/releases) and then execute them
+
+# Usage
+
+```bash
+dorkscout -h
+```
+```bash
+Usage:
+  dorkscout [command]
+
+Available Commands:
+  completion  generate the autocompletion script for the specified shell
+  delete      deletes all the .dorkscout files inside a given directory
+  help        Help about any command
+  install     installs a list of dorks from exploit-db.com
+  scan        scans a specific website or all the websites it founds for a list of dorks
+
+Flags:
+  -h, --help   help for dorkscout
+
+Use "dorkscout [command] --help" for more information about a command.
+```
+to start scanning with a wordlist and a proxy that will then return the results in a HTML format 
+```bash
+dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html" -x socks5://127.0.0.1:9050
+```
+results : 
+
+![](https://i.imgur.com/hGz7b9n.png)
+
+## Install wordlists
+to start scanning you'll need some dork lists and to have these lists you can install them through the install command
+```bash
+dorkscout install --output-dir /dorks
+```
+and this will fetch all the available dorks from exploit.db
+```
+[+] ./Advisories and Vulnerabilities.dorkscout
+[+] ./Vulnerable Files.dorkscout
+[+] ./Files Containing Juicy Info.dorkscout
+[+] ./Sensitive Online Shopping Info.dorkscout
+[+] ./Files Containing Passwords.dorkscout
+[+] ./Vulnerable Servers.dorkscout
+[+] ./Various Online Devices.dorkscout
+[+] ./Pages Containing Login Portals.dorkscout
+[+] ./Footholds.dorkscout
+[+] ./Error Messages.dorkscout
+[+] ./Files Containing Usernames.dorkscout
+[+] ./Network or Vulnerability Data.dorkscout
+[+] ./.dorkscout
+[+] ./Sensitive Directories.dorkscout
+[+] ./Web Server Detection.dorkscout
+2021/08/11 19:02:45 Installation finished in 2.007928 seconds on /dorks
+```
