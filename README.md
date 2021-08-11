@@ -1,5 +1,4 @@
 ![](https://api.travis-ci.org/R4yGM/dorkscout.svg)
-![](https://img.shields.io/docker/cloud/build/r4yan/dorkscout)
 
 # dorkscout
 dokrscout is a tool to automate the finding of vulnerable applications or secret files around the internet throught google searches, dorkscout first starts by fetching the dorks lists from https://www.exploit-db.com/google-hacking-database and then it scans a given target or everything it founds
