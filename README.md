@@ -63,7 +63,11 @@ docker run -v Dorkscout:/dorkscout r4yan/dorkscout scan <options>
    ```bash
 docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
   ```
-  
+  **If you wanted to scan throught a proxy using a docker container you have to add the --net host option**
+  example : 
+  ```bash
+  docker run --net host -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
+  ```
   **Always save your results inside the volume and not in the container because then the results will be deleted! you can save them by writing the same volume path of the directory you are saving the results**
  
  if you added this and did everything correctly at the end of every scan you'd find the results inside the folder `/var/lib/docker/volumes/dorkscout_data/_data`
