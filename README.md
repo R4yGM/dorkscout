@@ -52,17 +52,19 @@ docker pull r4yan/dorkscout:latest
 -rw-r--r-- 1 r4yan r4yan  8145 Jul 31 14:56 'Web Server Detection.dorkscout'
   ```
   so that you don't have to install them
-  
   then you can start scanning by doing :
   ```bash
-sudo docker run -v Dorkscout:/dorkscout 0c73b2181edf scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
+sudo docker run -v Dorkscout:/dorkscout r4yan/dorkscout scan <options>
   ```
-  replace the `<options>` with the options/arguments you want to give to stegbrute,
-  once you did everything you don't have to pull/build the image again only if there are new updates or features
+  replace the `<options>` with the options/arguments you want to give to dorkscout,
+  example :
+   ```bash
+sudo docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
+  ```
   
-  **Always save your results inside the volume and not in the container because then the results will be deleted! you can save them by adding this option `-x /$VOLUME_NAME/results.txt` or `--extract-file /$VOLUME_NAME/results.txt`** 
+  **Always save your results inside the volume and not in the container because then the results will be deleted! you can save them by writing the same volume path of the directory you are saving the results**
  
- if you added this and did everything correctly at the end of every attack you'd find the results inside the folder `/var/lib/docker/volumes/stegbrute_data/_data`
+ if you added this and did everything correctly at the end of every scan you'd find the results inside the folder `/var/lib/docker/volumes/dorkscout_data/_data`
   
   
   **this will work for every platform**
