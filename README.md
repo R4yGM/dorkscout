@@ -66,7 +66,7 @@ docker run -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sens
   **If you wanted to scan throught a proxy using a docker container you have to add the --net host option**
   example : 
   ```bash
-  docker run --net host -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html"
+  docker run --net host -v dorkscout_data:/dorkscout r4yan/dorkscout scan -d="/dorkscout/Sensitive Online Shopping Info.dorkscout" -H="/dorkscout/a.html -x socks5://127.0.0.1:9050"
   ```
   **Always save your results inside the volume and not in the container because then the results will be deleted! you can save them by writing the same volume path of the directory you are saving the results**
  
